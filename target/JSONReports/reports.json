@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-26T14:27:33.017Z",
+        "start_timestamp": "2022-02-26T16:03:30.315Z",
         "line": 3,
         "name": "verify google search is working",
         "description": "",
@@ -13,62 +13,48 @@
         "steps": [
           {
             "result": {
-              "duration": 3417880800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
             "name": "browser is opening",
-            "match": {
-              "location": "StepDefinations.Googlesearch.browser_is_opening()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1682356200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user is on google search page",
-            "match": {
-              "location": "StepDefinations.Googlesearch.user_is_on_google_search_page()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 140664000,
-              "status": "passed"
+              "duration": 978000,
+              "status": "skipped"
             },
             "line": 6,
             "name": "user enters a text in search box",
-            "match": {
-              "location": "StepDefinations.Googlesearch.user_enters_a_text_in_search_box()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2023249600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "hits enter",
-            "match": {
-              "location": "StepDefinations.Googlesearch.hits_enter()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 782909900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "user is navigated to search results",
-            "match": {
-              "location": "StepDefinations.Googlesearch.user_is_navigated_to_search_results()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -85,7 +71,77 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-26T14:27:41.204Z",
+        "start_timestamp": "2022-02-26T16:03:30.448Z",
+        "line": 3,
+        "name": "Check login is sucessful",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-sucessful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2905970800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is opening",
+            "match": {
+              "location": "StepDefinations.LoginFB_demo.browser_is_opening()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5100695000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login  page",
+            "match": {
+              "location": "StepDefinations.LoginFB_demo.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10356446000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinations.LoginFB_demo.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10258818500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinations.LoginFB_demo.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Logindemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-26T16:03:59.081Z",
         "line": 3,
         "name": "to check login with valid cred",
         "description": "",
@@ -95,46 +151,41 @@
         "steps": [
           {
             "result": {
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
             "name": "is on login page",
-            "match": {
-              "location": "StepDefinations.Loginsteps.is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user enters username and password",
             "match": {
-              "location": "StepDefinations.Loginsteps.user_enters_username_and_password()"
+              "location": "StepDefinations.LoginFB_demo.user_enters_username_and_password()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1084700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "cicks on login button",
-            "match": {
-              "location": "StepDefinations.Loginsteps.cicks_on_login_button()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user is navigated to the home page",
             "match": {
-              "location": "StepDefinations.Loginsteps.user_is_navigated_to_the_home_page()"
+              "location": "StepDefinations.LoginFB_demo.user_is_navigated_to_the_home_page()"
             },
             "keyword": "Then "
           }

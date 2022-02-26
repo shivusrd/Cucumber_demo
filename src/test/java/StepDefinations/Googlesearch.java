@@ -14,45 +14,45 @@ import io.cucumber.java.en.When;
 
 
 
-public class Googlesearch
-
-{
-	WebDriver driver = null;
-	
-	@Given("browser is opening")
-	public void browser_is_opening() 
-	{
-		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path+"/src/test/resources/Drivers/chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		
-	}
-
-	@And("user is on google search page")
-	public void user_is_on_google_search_page()
-	{
-	   driver.navigate().to("https://www.google.com/");
-	}
-
-	@When("user enters a text in search box")
-	public void user_enters_a_text_in_search_box() 
-	{
-	   driver.findElement(By.name("q")).sendKeys("music album");
-	}
-
-	@And("hits enter")
-	public void hits_enter() 
-	{
-		 driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-	}
-
-	@Then("user is navigated to search results")
-	public void user_is_navigated_to_search_results() 
-	{
-	  driver.getPageSource().contains("lion");
-	  driver.quit();
-	}
-
-}
+//public class Googlesearch
+//
+//{
+//	WebDriver driver = null;
+//	
+//	@Given("browser is opening")
+//	public void browser_is_opening() 
+//	{
+//		String path = System.getProperty("user.dir");
+//		System.setProperty("webdriver.chrome.driver", path+"/src/test/resources/Drivers/chromedriver.exe");
+//		driver = new ChromeDriver();
+//		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		
+//	}
+//
+//	@And("user is on google search page")
+//	public void user_is_on_google_search_page()
+//	{
+//	   driver.navigate().to("https://www.google.com/");
+//	}
+//
+//	@When("user enters a text in search box")
+//	public void user_enters_a_text_in_search_box() 
+//	{
+//	   driver.findElement(By.name("q")).sendKeys("music album");
+//	}
+//
+//	@And("hits enter")
+//	public void hits_enter() 
+//	{
+//		 driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+//	}
+//
+//	@Then("user is navigated to search results")
+//	public void user_is_navigated_to_search_results() 
+//	{
+//	  driver.getPageSource().contains("lion");
+//	  driver.quit();
+//	}
+//
+//}
