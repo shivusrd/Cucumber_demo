@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-26T14:27:33.017Z",
+        "line": 3,
+        "name": "verify google search is working",
+        "description": "",
+        "id": "feature-to-test-google-search-function;verify-google-search-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3417880800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is opening",
+            "match": {
+              "location": "StepDefinations.Googlesearch.browser_is_opening()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1682356200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on google search page",
+            "match": {
+              "location": "StepDefinations.Googlesearch.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140664000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters a text in search box",
+            "match": {
+              "location": "StepDefinations.Googlesearch.user_enters_a_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2023249600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinations.Googlesearch.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782909900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "StepDefinations.Googlesearch.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Google search function",
+    "description": "",
+    "id": "feature-to-test-google-search-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Googlesearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-26T14:27:41.204Z",
+        "line": 3,
+        "name": "to check login with valid cred",
+        "description": "",
+        "id": "feature-to-test-login;to-check-login-with-valid-cred",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "is on login page",
+            "match": {
+              "location": "StepDefinations.Loginsteps.is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinations.Loginsteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1084700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cicks on login button",
+            "match": {
+              "location": "StepDefinations.Loginsteps.cicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinations.Loginsteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login",
+    "description": "",
+    "id": "feature-to-test-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
