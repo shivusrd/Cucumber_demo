@@ -13,7 +13,7 @@ public class log4jdemo
 	public static void main(String[] args) 
 
 	{
-		System.out.println(" \n Hello world ...!    \n ");
+		//System.out.println(" \n Hello world ...!    \n ");
 		logger.trace("this is trace message");
 		logger.info("this is information message");
 		logger.error("this is error message");
