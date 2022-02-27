@@ -7,8 +7,9 @@ Feature: Test login functionality
     Then user is navigated to the home page
     
     Examples:
-    |username | password|
+   	| username | password |
     |8171765673| Shivu@srd1|
     |8171765674| Shivu@srd2|
     |8171765678| Shivu@srd3|
+
     
