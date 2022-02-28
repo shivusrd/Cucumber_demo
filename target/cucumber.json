@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-27T05:31:17.285Z",
+        "start_timestamp": "2022-02-27T05:52:38.413Z",
         "line": 3,
         "name": "verify google search is working",
         "description": "",
@@ -22,7 +22,6 @@
           },
           {
             "result": {
-              "duration": 665800,
               "status": "skipped"
             },
             "line": 5,
@@ -32,7 +31,6 @@
           },
           {
             "result": {
-              "duration": 624300,
               "status": "skipped"
             },
             "line": 6,
@@ -42,7 +40,6 @@
           },
           {
             "result": {
-              "duration": 592200,
               "status": "skipped"
             },
             "line": 7,
@@ -73,7 +70,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-27T05:31:17.452Z",
+        "start_timestamp": "2022-02-27T05:52:38.513Z",
         "line": 11,
         "name": "Check login is sucessful",
         "description": "",
@@ -83,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3560466100,
+              "duration": 3024995500,
               "status": "passed"
             },
             "line": 4,
@@ -95,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 3832375200,
+              "duration": 3280157100,
               "status": "passed"
             },
             "line": 5,
@@ -107,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 417089900,
+              "duration": 273269000,
               "status": "passed"
             },
             "line": 6,
@@ -129,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 617755800,
+              "duration": 484000400,
               "status": "passed"
             },
             "line": 7,
@@ -142,7 +139,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-27T05:31:25.898Z",
+        "start_timestamp": "2022-02-27T05:52:45.584Z",
         "line": 12,
         "name": "Check login is sucessful",
         "description": "",
@@ -152,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1783325900,
+              "duration": 1525879200,
               "status": "passed"
             },
             "line": 4,
@@ -164,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 3111875800,
+              "duration": 2439480600,
               "status": "passed"
             },
             "line": 5,
@@ -176,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 423817000,
+              "duration": 246342700,
               "status": "passed"
             },
             "line": 6,
@@ -198,7 +195,7 @@
           },
           {
             "result": {
-              "duration": 678223500,
+              "duration": 424863100,
               "status": "passed"
             },
             "line": 7,
@@ -211,7 +208,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-27T05:31:31.908Z",
+        "start_timestamp": "2022-02-27T05:52:50.225Z",
         "line": 13,
         "name": "Check login is sucessful",
         "description": "",
@@ -221,7 +218,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2311370300,
+              "duration": 1485227300,
               "status": "passed"
             },
             "line": 4,
@@ -233,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 4237760100,
+              "duration": 3082763500,
               "status": "passed"
             },
             "line": 5,
@@ -245,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 310065500,
+              "duration": 245453600,
               "status": "passed"
             },
             "line": 6,
@@ -267,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 556675700,
+              "duration": 383159500,
               "status": "passed"
             },
             "line": 7,
@@ -291,7 +288,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-27T05:31:39.336Z",
+        "start_timestamp": "2022-02-27T05:52:55.427Z",
         "line": 3,
         "name": "to check login with valid cred",
         "description": "",
