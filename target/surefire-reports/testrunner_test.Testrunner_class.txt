@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testrunner_test.Testrunner_class
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.369 s - in testrunner_test.Testrunner_class
