@@ -18,6 +18,7 @@ public class Googlesearch
 
 {
 	WebDriver driver = null;
+	public String text;
 	
 	@Given("browser is opening")
 	public void browser_is_opening() 
@@ -36,10 +37,10 @@ public class Googlesearch
 	   driver.navigate().to("https://www.google.com/");
 	}
 
-	@When("user enters a text in search box")
-	public void user_enters_a_text_in_search_box() 
+	@When("^user enters a (.*) in search box$")
+	public void user_enters_a_text_in_search_box(String text) 
 	{
-	   driver.findElement(By.name("q")).sendKeys("music album");
+	   driver.findElement(By.name("q")).sendKeys(text);
 	}
 
 	@And("hits enter")
@@ -51,7 +52,7 @@ public class Googlesearch
 	@Then("user is navigated to search results")
 	public void user_is_navigated_to_search_results() 
 	{
-	  driver.getPageSource().contains("lion");
+	  
 	  driver.quit();
 	}
 
