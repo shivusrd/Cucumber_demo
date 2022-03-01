@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="21.038">
-    <testcase classname="feature to test Google search function" name="verify google search is working" time="0.15">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given browser is opening....................................................undefined
-And user is on google search page...........................................skipped
-When user enters a text in search box.......................................skipped
-And hits enter..............................................................skipped
-Then user is navigated to search results....................................skipped
-]]></failure>
-    </testcase>
-    <testcase classname="Test login functionality" name="Check login is sucessful" time="8.644">
-        <system-out><![CDATA[Given Browser is opening....................................................passed
-And user is on login  page..................................................passed
-When user enters 8171765673 and Shivu@srd1..................................passed
-Then user is navigated to the home page.....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Test login functionality" name="Check login is sucessful 2" time="6.061">
-        <system-out><![CDATA[Given Browser is opening....................................................passed
-And user is on login  page..................................................passed
-When user enters 8171765674 and Shivu@srd2..................................passed
-Then user is navigated to the home page.....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Test login functionality" name="Check login is sucessful 3" time="5.766">
-        <system-out><![CDATA[Given Browser is opening....................................................passed
-And user is on login  page..................................................passed
-When user enters 8171765678 and Shivu@srd3..................................passed
-Then user is navigated to the home page.....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="feature to test login" name="to check login with valid cred" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given is on login page......................................................undefined
-When user enters username and password......................................skipped
-And cicks on login button...................................................skipped
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.477">
+    <testcase classname="login function" name="Check login is sucessful" time="0.173">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on login  page................................................undefined
+And user enters valid username and password.................................skipped
+When clicks on function button..............................................skipped
 Then user is navigated to the home page.....................................skipped
 ]]></failure>
     </testcase>

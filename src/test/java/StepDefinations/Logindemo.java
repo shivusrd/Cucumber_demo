@@ -7,14 +7,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import pages.Login_page;
 
-public class Login_page_test
+public class Logindemo
 
 {
 	WebDriver driver = null;
 	Login_page ob;
+	
+	
 
 	@Given("Browser is opening")
 	public void browser_is_opening() {
@@ -26,7 +30,7 @@ public class Login_page_test
 		driver.manage().window().maximize();
 	}
 
-	@Given("user is on login  page")
+	@And("user is on login  page")
 	public void user_is_on_login_page() {
 
 		driver.navigate().to("https://www.flipkart.com/");

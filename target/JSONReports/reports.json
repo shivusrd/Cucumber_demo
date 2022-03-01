@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-27T05:31:17.285Z",
+        "start_timestamp": "2022-03-01T07:20:24.391Z",
         "line": 3,
-        "name": "verify google search is working",
+        "name": "Check login is sucessful",
         "description": "",
-        "id": "feature-to-test-google-search-function;verify-google-search-is-working",
+        "id": "login-function;check-login-is-sucessful",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -16,347 +16,47 @@
               "status": "undefined"
             },
             "line": 4,
-            "name": "browser is opening",
+            "name": "user is on login  page",
             "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 665800,
               "status": "skipped"
             },
             "line": 5,
-            "name": "user is on google search page",
+            "name": "user enters valid username and password",
             "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 624300,
+              "duration": 892600,
               "status": "skipped"
             },
             "line": 6,
-            "name": "user enters a text in search box",
+            "name": "clicks on function button",
             "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 592200,
+              "duration": 270100,
               "status": "skipped"
             },
             "line": 7,
-            "name": "hits enter",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "user is navigated to search results",
+            "name": "user is navigated to the home page",
             "match": {},
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "feature to test Google search function",
+    "name": "login function",
     "description": "",
-    "id": "feature-to-test-google-search-function",
+    "id": "login-function",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Googlesearch.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2022-02-27T05:31:17.452Z",
-        "line": 11,
-        "name": "Check login is sucessful",
-        "description": "",
-        "id": "test-login-functionality;check-login-is-sucessful;;2",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3560466100,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Browser is opening",
-            "match": {
-              "location": "StepDefinations.Login_page_test.browser_is_opening()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3832375200,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on login  page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_on_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 417089900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters 8171765673 and Shivu@srd1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8171765673",
-                  "offset": 12
-                },
-                {
-                  "val": "Shivu@srd1",
-                  "offset": 27
-                }
-              ],
-              "location": "StepDefinations.Login_page_test.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 617755800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the home page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_navigated_to_the_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T05:31:25.898Z",
-        "line": 12,
-        "name": "Check login is sucessful",
-        "description": "",
-        "id": "test-login-functionality;check-login-is-sucessful;;3",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1783325900,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Browser is opening",
-            "match": {
-              "location": "StepDefinations.Login_page_test.browser_is_opening()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3111875800,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on login  page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_on_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 423817000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters 8171765674 and Shivu@srd2",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8171765674",
-                  "offset": 12
-                },
-                {
-                  "val": "Shivu@srd2",
-                  "offset": 27
-                }
-              ],
-              "location": "StepDefinations.Login_page_test.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 678223500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the home page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_navigated_to_the_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-27T05:31:31.908Z",
-        "line": 13,
-        "name": "Check login is sucessful",
-        "description": "",
-        "id": "test-login-functionality;check-login-is-sucessful;;4",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2311370300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Browser is opening",
-            "match": {
-              "location": "StepDefinations.Login_page_test.browser_is_opening()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4237760100,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on login  page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_on_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 310065500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters 8171765678 and Shivu@srd3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8171765678",
-                  "offset": 12
-                },
-                {
-                  "val": "Shivu@srd3",
-                  "offset": 27
-                }
-              ],
-              "location": "StepDefinations.Login_page_test.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 556675700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the home page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_navigated_to_the_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Test login functionality",
-    "description": "",
-    "id": "test-login-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Logindemo.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2022-02-27T05:31:39.336Z",
-        "line": 3,
-        "name": "to check login with valid cred",
-        "description": "",
-        "id": "feature-to-test-login;to-check-login-with-valid-cred",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 4,
-            "name": "is on login page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user enters username and password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "username",
-                  "offset": 12
-                },
-                {
-                  "val": "password",
-                  "offset": 25
-                }
-              ],
-              "location": "StepDefinations.Login_page_test.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "cicks on login button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user is navigated to the home page",
-            "match": {
-              "location": "StepDefinations.Login_page_test.user_is_navigated_to_the_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "feature to test login",
-    "description": "",
-    "id": "feature-to-test-login",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/login.feature",
+    "uri": "file:src/test/resources/hookdemo/hooks.feature",
     "tags": []
   }
 ]
