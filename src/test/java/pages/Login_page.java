@@ -17,10 +17,10 @@ public class Login_page
 	public Login_page(WebDriver driver)
 
 	{
-		this.driver=driver;	
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(xpath = " //body/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]")
 	private WebElement email;
 
@@ -30,30 +30,11 @@ public class Login_page
 	@FindBy(xpath = "//body/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[4]/button[1]")
 	private WebElement login;
 
-//	public void login(String username) 
-//	{
-//		email.sendKeys(username);
-//
-//	}
-//
-//	public void pass(String password) {
-//
-//		pass.sendKeys(password);
-//
-//	}
-//
-//	public void loginbtn() {
-//
-//		login.click();
-//
-//	}
-	
-	public void gen(String username, String password)
-	{
-	email.sendKeys(username);
-	pass.sendKeys(password);
-	login.click();
-		
+	public void gen(String username, String password) {
+		email.sendKeys(username);
+		pass.sendKeys(password);
+		login.click();
+
 	}
 
 }
