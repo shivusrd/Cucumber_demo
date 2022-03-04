@@ -8,10 +8,6 @@ Feature: Test login functionality
     Examples:
    	| username | password |
     |8171765673| Shivu@srd1|
-    |8171765673| Shivu@srd1|
-    |8171765673| Shivu@srd1|
-    |8171765673| Shivu@srd1|
-    |8171765673| Shivu@srd1|
-    |8171765673| Shivu@srd1|
-
+    
+   
     

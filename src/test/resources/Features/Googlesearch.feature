@@ -12,7 +12,4 @@ Feature: feature to test Google search function
     
     |bird|
     |animal| 
-    |shivam| 
-    |music|
-    |concert| 
-    |planets| 
+    
