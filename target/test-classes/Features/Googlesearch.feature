@@ -11,5 +11,5 @@ Feature: feature to test Google search function
    	|text|
     
     |bird|
-    |animal| 
+    
     

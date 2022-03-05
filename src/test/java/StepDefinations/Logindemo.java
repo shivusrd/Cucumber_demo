@@ -50,7 +50,15 @@ public class Logindemo
 		driver.getPageSource().contains("shivam dubey");
 		String title = driver.getTitle();
 		System.out.println(title);
-		driver.quit();
+		
+	}
+	
+	@Then("^user enters (.*) name$")
+	public void user_enters_shoes_name(String product) throws InterruptedException 
+	{
+			
+			ob.search(product);
+			driver.quit();
 	}
 
 }

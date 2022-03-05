@@ -11,21 +11,5 @@ Feature: feature to test Google search function
    	|text|
     
     |bird|
-    |animal|
-    |anim|
-    |lion|
-    |azax|
-    |jenkins|
-    |anmol|
-    |amool|
-    |servcer|
-    |hello|
-    |songs|
-    |birhtday|
-    |jenkins server|
-    |http://localhost:8080/|
-    |sea|
-    |ukraine|
-    |russia|
-    |anu|
+    
     
