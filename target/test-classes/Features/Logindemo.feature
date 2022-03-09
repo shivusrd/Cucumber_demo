@@ -9,10 +9,7 @@ Feature: Test login functionality
     Examples:
    	| username | password | product | 
     |8171765673| Shivu@srd1 | shoes |
-    |8171765673| Shivu@srd1 | bagpack |
-    |8171765673| Shivu@srd1 | heater |
-    |8171765673| Shivu@srd1 | mobile |
-    |8171765673| Shivu@srd1 | games |
+   
  		
  
     

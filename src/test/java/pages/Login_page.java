@@ -42,14 +42,14 @@ public class Login_page
 		pass.sendKeys(password);
 		login.click();
 		
-		
+		Thread.sleep(2000);
 	}
 	
 	public void search(String product) throws InterruptedException
 	
 	{   
 		search.sendKeys(product,Keys.ENTER);
-		
+		Thread.sleep(4000);
 	}
 	
 
