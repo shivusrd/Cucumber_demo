@@ -1,8 +1,0 @@
-pages\Login_page.class
-log4j_demo\log4jdemo.class
-StepDefinations\Logindemo.class
-StepDefinations\Button_login.class
-pages\Button_page.class
-StepDefinations\Login.class
-testrunner_test\Testrunner_class.class
-StepDefinations\Googlesearch.class
