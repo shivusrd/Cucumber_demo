@@ -9,6 +9,12 @@ Feature: Test login functionality
     Examples:
    	| username | password | product | 
     |8630597482| Shivam@123 | bagpack |
+    |8630597482| Shivam@123 | shoes |
+    |8630597482| Shivam@123 | food |
+    |8630597482| Shivam@123 | peanut butter |
+    |8630597482| Shivam@123 | bag |
+    |8630597482| Shivam@123 | laptop |
+    |8630597482| Shivam@123 | chips |
    
  		
  
