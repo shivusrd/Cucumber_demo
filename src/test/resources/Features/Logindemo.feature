@@ -8,7 +8,7 @@ Feature: Test login functionality
     Then user enters <product> name
     Examples:
    	| username | password | product | 
-    |8171765673| Shivu@srd1 | shoes |
+    |8630597482| Shivam@123 | bagpack |
    
  		
  
