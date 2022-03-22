@@ -11,40 +11,6 @@ Feature: feature to test Google search function
    	|text|
     
     |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
-    |bird|
+   
     
     

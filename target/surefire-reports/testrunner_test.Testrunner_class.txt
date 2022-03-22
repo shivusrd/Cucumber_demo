@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: testrunner_test.Testrunner_class
 -------------------------------------------------------------------------------
-Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 327.526 s - in testrunner_test.Testrunner_class
+Tests run: 46, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 468.807 s <<< FAILURE! - in testrunner_test.Testrunner_class
+feature to test Google search function.verify google search is working #4  Time elapsed: 30.621 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to stop.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [983e227d60789de33487915617bcd88d, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:64302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64302/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 983e227d60789de33487915617bcd88d
+Caused by: java.util.concurrent.ExecutionException: 
+org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Process timed out after waiting for 20000 ms.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown
+
